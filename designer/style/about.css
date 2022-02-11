@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    width: 100%;
+    position: sticky !important;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    color:#8E2DE2 !important;
+}
+
+.nav-link{
+    color: black !important;
+    /* border-bottom:  1px solid transparent; */
+}
+
+.nav-link:hover{
+	border-left: #8E2DE2 5px solid ;
+}
+
+
+#about{
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, #8E2DE2,#4A00E0);
+    color:wheat;
+    box-shadow: 0px 8px 10px rgb(0, 0, 0, 0.6) !important;
+    position: absolute;
+}
+
+section h2{
+    margin-top: 4%;
+}
+section p{
+    margin-top: 2%; 
+}
+#skills{
+    width: 100%;
+    min-height: 60vh;
+    position:relative ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    /* background: linear-gradient(to bottom, #8E2DE2,#4A00E0); */
+    box-shadow: 0px 8px 10px rgb(0, 0, 0, 0.6) !important;
+    margin-top: 30%;
+    border-radius:15px ;
+    margin-bottom: 1%;
+}
+#skills .data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+}
+#skills i{
+    font-size:50px;
+    color:#8E2DE2 ;
+}
+#skills .data h2{
+    font-weight: 900;
+}
+#skills .data .pink{
+    color:#8E2DE2 ;
+    font-size: 22px;
+}
+#skills .data .p{
+    font-size: 20px;
+}
+#skills .data li{
+    padding: 5px;
+}
+ @media screen and (max-width:800px) {
+    #skills{
+        margin-top: 45%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #skills{
+        margin-top:55%;
+    }
+    section h2{
+        margin-top: 4%;
+        text-align: center;
+    }
+} 
+@media screen and (max-width:500px) {
+    #skills{
+        margin-top:55%;
+    }
+    section h2{
+        margin-top: 4%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:360px) {
+    #skills{
+        margin-top:160%;
+    }
+    section h2{
+        margin-top: 4%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:425px) {
+    #skills{
+        margin-top:85%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    #skills{
+        margin-top:100%;
+    }
+    section h2{
+        margin-top: 4%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:320px) {
+    #skills{
+        margin-top:145%;
+    }
+}
